@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Light.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+a {
+    text-decoration: 0;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+body {
+    background: linear-gradient(rgba(1,1,0,0.1), #333), url('../image/fuuji.jpg');
+    background-size: 105%;
+}
+section {
+    margin-top: 50px;
+}
+
+header {
+    color: #111;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 3%;
+}
+header  .logo a {
+    color: #111;
+    font-size: 20px;
+    color: #2c3880;
+    margin: 0;
+ 
+}
+header  .logo a span {
+    color: #111;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu li  {
+    margin: 0 15px;
+    list-style-type: none;
+}
+.menu li a {
+    color:#111;
+    font-size: 14px;
+}
+  
+  section{
+    padding: 45px;
+  }
+  
+  .cta {
+    background: radial-gradient(circle, rgba(1,82,104,1) 0%, rgba(23,35,71,1) 100%);
+
+    color: white;
+    border-radius: 50px;
+    width: 350px;
+    text-align: justify;
+    padding: 16px;
+    margin: 20px;
+
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  .cta:hover {
+    background: linear-gradient(#8e86b5, #acaeed);
+    text-decoration: none;
+  }
+  
+  .carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+  }
+  
+  .carre-contenu h2 {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu ul {
+    margin-top: 30px;
+  }
+  .lien-icone:hover {
+    opacity: 0.5;
+  }
+  
+  .carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+  }
+  
+  .a-propos-main{
+      width: 350px;
+      text-align: justify;
+      padding: 16px;
+      margin: auto;
+  }
+  
+  .conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    gap: 20 px;
+  }
+
+
+    .carre-contenu_index {
+      border-left: 1px solid #8e86b5;
+      border-bottom: 1px solid #8e86b5;
+      padding: 50px;
+
+    }
+
+    .describe-me {
+      color: white;
+      line-height: 20px;
+      font-size: 15px;
+      width: 90%;
+      margin-top: 70px;
+  }
+
+  .med{
+    font-size: 24px;
+    margin-top: 30px;
+    position: absolute;
+    color: #ccc;
+  }
+
+  .nait {
+    font-size: 24px;
+    margin-top: 30px;
+    position: absolute;
+    color: #ccc;
+    right: 550px;
+  }

@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("fonts/Roboto-Light.ttf");
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+a {
+    text-decoration: 0;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px; 
+}
+ ::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+} 
+body {
+    background: linear-gradient(rgba(1,1,0,0.1), transparent), url('../image/fuuji.jpg');
+    background-size: 105%;
+}
+
+
+header {
+    color: #111;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 3%;
+}
+header  .logo a {
+    color: #111;
+    font-size: 20px;
+    color: #2c3880;
+    margin: 0;
+ 
+}
+header  .logo a span {
+    color: #111;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu li  {
+    margin: 0 15px;
+    list-style-type: none;
+}
+.menu li a {
+    color:#111;
+    font-size: 14px;
+}
+
+#ville {
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    }
+
+    .container{
+        background-color: #222;
+        padding: 20px;
+        width: 90%;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+
+    .texte-details {    
+        color: white;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .title-container {
+        margin-left: 90px;
+        margin-bottom: 50px;
+        margin-top: 130PX;
+    
+    }
+
+    .title {
+        font-weight: bold;
+        color:  #6875c5;
+        position: relative;
+        font-size: 25px;
+    
+    }
+    .title::after {
+        position: absolute;
+        left: -15px;
+        content: "";
+        height: 100%;
+        background-color: #fff;
+        width: 5px;
+    }
+
+    .title-sites {
+        margin-right: 1020px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .img-sites{
+        height: 90px;
+        width: 250px;
+    }
+
+    .list-sites {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+    }
+
+    .site-name{
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .button-section {
+        padding-top: 100px;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+.buttons {
+    margin-right: 25px;
+    border-radius: 20px;
+    border: 2px solid #2c3880;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color:  #2c3880;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.buttons:hover {
+    background-color:  #6875c5; 
+   color: white; }
