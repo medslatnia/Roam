@@ -1,5 +1,5 @@
 # Roam
-Roam is a travel agency website, that offers a curated collection of destinations, from enchanting countries to vibrant cities and iconic monuments.
+Roam: Your Gateway to Global Adventures! Explore the world with ease through our travel agency website, offering a curated collection of destinations, from enchanting countries to vibrant cities and iconic monuments. Immerse yourself in diverse cultures, discover hidden gems, and find the perfect accommodations with Roam. Your journey begins here!
 
 # Technologies
 * Html
